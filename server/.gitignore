@@ -9,7 +9,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
-/Configuration/*.js
+
 
 # Debug logs
 npm-debug.log*
