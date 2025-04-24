@@ -5,7 +5,8 @@
 	"main": "Index.js",
 	"scripts": {
 		"start": "node Index.js",
-		"dev": "nodemon Index.js"
+		"dev": "nodemon Index.js",
+		"postinstall": "node -e \"try { require('fs').mkdirSync('./Configuration'); } catch (e) { if (e.code !== 'EEXIST') throw e; }\""
 	},
 	"keywords": [
 		"studynotion-backend"

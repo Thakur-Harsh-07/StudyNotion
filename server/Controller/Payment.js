@@ -1,4 +1,4 @@
-const { instance } = require("../Configuration/Razorpay");
+const Razorpay = require("razorpay");
 const Course = require("../Model/Course");
 const crypto = require("crypto");
 const User = require("../Model/User");
@@ -10,6 +10,12 @@ const {
 const { paymentSuccessEmail } = require("../Mail/Template/PaymentSuccessEmail");
 const CourseProgress = require("../Model/CourseProgress");
 require("dotenv").config();
+
+// Initialize Razorpay
+const instance = new Razorpay({
+    key_id: process.env.RAZORPAY_KEY,
+    key_secret: process.env.RAZORPAY_SECRET,
+});
 
 exports.capturePayment = async (req, res) => {
   const { courses } = req.body;

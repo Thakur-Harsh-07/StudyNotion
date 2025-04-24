@@ -3,18 +3,21 @@
 /.pnp
 .pnp.js
 
-# Environment variables and sensitive files
+# Environment variables
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
-/Configuration/*.js
+.env.development
+.env.production
 
-# Debug logs
+# Keep example env file
+!.env.example
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+logs
+*.log
 
 # Runtime data
 pids
@@ -27,36 +30,6 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
-
-# nyc test coverage
-.nyc_output
-
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-.vscode/
-
-# System Files
-.DS_Store
-Thumbs.db
-
-# Temp files
-*.swp
-*.swo
-*~
-
-# Logs
-logs
-*.log
-
-# Build output
-/dist
-/build
 
 # Optional npm cache directory
 .npm
@@ -72,6 +45,35 @@ logs
 
 # Yarn Integrity file
 .yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/
+
+# Temp files
+*.swp
+*.swo
+*~
+
+# Build output
+/dist
+/build
 
 # Vercel
 .vercel
