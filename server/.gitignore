@@ -6,12 +6,13 @@
 # Environment variables
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
-/Configuration/*.js
+.env.development
+.env.production
 
-# Debug logs
+# Keep example env file
+!.env.example
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
