@@ -101,10 +101,9 @@ The server will start running on http://localhost:4000
 
 ## Deployment
 
- The URL is:
-```
-https://studynotion-frontend-three-phi.vercel.app/
-```
+The application is deployed using the following services:
+- Frontend is deployed on Vercel: [https://studynotion-frontend-three-phi.vercel.app/](https://studynotion-frontend-three-phi.vercel.app/)
+- Backend is deployed on Render: [https://studynotion-m7kv.onrender.com/api/v1](https://studynotion-m7kv.onrender.com/api/v1)
 
 ## Contributing
 
