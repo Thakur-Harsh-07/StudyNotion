@@ -57,9 +57,9 @@ exports.passwordUpdated = (email, name) => {
     
     <body>
         <div class="container">
-            	<a href="https://studynotion-edtech-project.vercel.app" style="text-decoration: none;">
+            	<a href="https://studynotion-frontend-three-phi.vercel.app/" style="text-decoration: none;">
 				<img class="logo" 
-					src="https://studynotion-edtech-project.vercel.app/logo.png" 
+					src="https://studynotion-frontend-three-phi.vercel.app/logo.png" 
 					alt="StudyNotion Logo"
 					width="200"
 					height="auto"
