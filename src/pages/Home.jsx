@@ -52,7 +52,7 @@ const Home = () => {
                 </CTAButton>
             </div>
 
-            <div className= 'mx-3 my-8 sm:my-12 shadow-richblue-200 w-full max-w-4xl'>
+            <div className= 'mx-3 my-8 sm:my-12 shadow-richblue-200 w-full max-w-4xl border border-gray-700 hover:border-blue-600 hover:shadow-blue-700 transition-colors hover:shadow-xl '>
                 <video
                 muted
                 loop
